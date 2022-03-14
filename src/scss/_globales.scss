@@ -1,0 +1,33 @@
+// Primary
+
+$Paleblue: hsl(225, 100%, 94%);
+$Brightblue: #3829e0;
+
+// Neutral
+
+$Verypaleblue: #f5f7ff;
+$Desaturatedblue: #7280a7;
+$Darkblue: hsl(223, 47%, 23%);
+
+body {
+    background-image: url(../../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 15%;
+   
+    position: relative;
+
+    background-color: $Paleblue;
+
+
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+    @media (max-width: 400px) {
+       background-image: none;
+      }
+}

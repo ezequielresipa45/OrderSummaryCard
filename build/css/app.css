@@ -1,0 +1,103 @@
+body {
+  background-image: url(../../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 15% 15%;
+  position: relative;
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+@media (max-width: 400px) {
+  body {
+    background-image: none;
+  }
+}
+
+.contenedor {
+  background-color: #f5f7ff;
+  border-radius: 1rem;
+  position: absolute;
+  top: 118px;
+  -webkit-box-shadow: 0px 10px 13px -7px #7280a7, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #7280a7, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+@media (max-width: 1600px) {
+  .contenedor {
+    min-width: 15rem;
+    max-width: 20rem;
+  }
+}
+.contenedor .imagen img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.contenedor .detalles h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.contenedor .detalles p {
+  text-align: center;
+  padding: 0 3rem;
+  font-size: 14px;
+  color: #7280a7;
+}
+.contenedor .detalles .plan-anual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0e8ff88;
+  margin: 0 2rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+.contenedor .detalles .plan-anual a {
+  font-size: 12px;
+  color: #3829e0;
+  font-weight: bold;
+}
+.contenedor .detalles .plan-anual a:hover {
+  color: #5e26e0;
+  text-decoration: none;
+}
+.contenedor .detalles .plan-anual .caja-svg-texto {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contenedor .detalles .plan-anual .caja {
+  text-align: center;
+}
+.contenedor .detalles .plan-anual .caja h3,
+.contenedor .detalles .plan-anual .caja p {
+  margin: 0.4rem 0;
+  padding: 0%;
+  font-size: 14px;
+}
+.contenedor .detalles .boton {
+  background-color: #3829e0;
+  margin: 1rem 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 10px 13px -7px #3829e08e, 5px 5px 15px 5px rgba(56, 41, 224, 0);
+  box-shadow: 0px 10px 13px -7px #3829e08e, 5px 5px 15px 5px rgba(56, 41, 224, 0);
+  color: #ffffff;
+  font-size: 13px;
+}
+.contenedor .detalles .boton:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #5e26e0;
+}
+.contenedor .detalles .cancel:hover {
+  color: black;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=app.css.map */
